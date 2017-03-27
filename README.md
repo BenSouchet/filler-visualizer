@@ -2,7 +2,7 @@
 
 This visualizer is a program developed as an extension of a project for my learning course at 42 school (Paris).<br /><br />
 The objective is to visualize the battle / conquest of territory of two AI on a specifique area.<br />
-<img align="center" src="http://i.cubeupload.com/0Zy3iS.gif" width="100%" height="544px" />
+<img align="center" src="https://raw.githubusercontent.com/BenjaminSouchet/Filler_Visualizer/master/visualizer/assets/images/visualizer.gif?token=AQPLEJCwLAqHszv7J7Nw19XqIXDy0HGeks5Y4pZMwA%3D%3D" width="100%" height="544px" />
 <br />
 Several options are available (see [Keyboard shortcuts](https://github.com/BenjaminSouchet/Filler_Visualizer#keyboard-shortcuts) section for more infos) :
 * Play / Pause the progression of the battle
@@ -54,68 +54,20 @@ So, if you want to start a battle between hcao & carli on the map01 ⇣
 <td valign="top" align="center"><kbd>&nbsp;esc&nbsp;</kbd></td>
 </tr>
 <tr>
-<td valign="top" height="30px">Reset all the changes made</td>
-<td valign="top" align="center"><kbd>&nbsp;clear&nbsp;</kbd></td>
+<td valign="top" height="30px">Play / Pause the battle</td>
+<td valign="top" align="center"><kbd>&nbsp;return&nbsp;</kbd></td>
 </tr>
 <tr>
-<td valign="top" height="30px">Hold to run faster</td>
+<td valign="top" height="30px">Change colors of the AI</td>
 <td valign="top" align="center"><kbd>&nbsp;shift&nbsp;</kbd></td>
 </tr>
 <tr>
-<td valign="top" height="30px">Enable or disable the mouse controls</td>
-<td valign="top" align="center"><kbd>&nbsp;M&nbsp;</kbd></td>
+<td valign="top" height="30px">View the previous step of the battle</td>
+<td valign="top" align="center"><kbd>&nbsp;◄&nbsp;</kbd></td>
 </tr>
 <tr>
-<td valign="top" height="30px">Make a step forward</td>
-<td valign="top" align="center"><kbd>&nbsp;▲&nbsp;</kbd> or <kbd>&nbsp;W&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Make a step backward</td>
-<td valign="top" align="center"><kbd>&nbsp;▼&nbsp;</kbd> or <kbd>&nbsp;S&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Make a step to the left</td>
-<td valign="top" align="center"><kbd>&nbsp;A&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Make a step to the left</td>
-<td valign="top" align="center"><kbd>&nbsp;D&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Rotate to the left</td>
-<td valign="top" align="center"><kbd>&nbsp;◄&nbsp;</kbd> or <kbd>&nbsp;Q&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Rotate to the right</td>
+<td valign="top" height="30px">View the next step of the battle</td>
 <td valign="top" align="center"><kbd>&nbsp;►&nbsp;</kbd> or <kbd>&nbsp;E&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Hardcore Mode Switcher</td>
-<td valign="top" align="center"><kbd>&nbsp;H&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Easy Mode Switcher</td>
-<td valign="top" align="center"><kbd>&nbsp;Z&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Play / Pause the current song</td>
-<td valign="top" align="center"><kbd>&nbsp;P&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Switch to the first song</td>
-<td valign="top" align="center"><kbd>&nbsp;1&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Switch to the second song</td>
-<td valign="top" align="center"><kbd>&nbsp;2&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Switch to the third song</td>
-<td valign="top" align="center"><kbd>&nbsp;3&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Switch to the fourth song</td>
-<td valign="top" align="center"><kbd>&nbsp;4&nbsp;</kbd></td>
 </tr>
 </tbody>
 </table>
