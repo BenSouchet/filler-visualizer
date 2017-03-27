@@ -6,7 +6,7 @@
 /*   By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/09 15:35:11 by bsouchet          #+#    #+#             */
-/*   Updated: 2017/03/25 17:56:15 by bsouchet         ###   ########.fr       */
+/*   Updated: 2017/03/27 18:47:59 by bsouchet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,7 @@
 
 # define CK_DW			env->event.key.keysym.sym
 # define D				(double)
+
+# define MSG0			"error: Dynamic memory allocation failed.\n"
 
 #endif

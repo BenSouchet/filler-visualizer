@@ -6,7 +6,7 @@
 /*   By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/18 16:55:00 by bsouchet          #+#    #+#             */
-/*   Updated: 2017/03/20 10:35:23 by bsouchet         ###   ########.fr       */
+/*   Updated: 2017/03/27 18:39:37 by bsouchet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,10 @@ int		get_next_line(int const fd, char **line)
 	if (NULL == line || fd < 0 || BUFF_SIZE <= 0)
 		return (-1);
 	if (NULL == buf_save)
-		buf_save = (char *)malloc(sizeof(char));
+	{
+		buf_save = (char *)malloc(sizeof(char) * 2);
+		buf_save[0] = 0;
+	}
 	while (!ft_strchr(buf_save, '\n'))
 	{
 		ret = read(fd, buffer, BUFF_SIZE);

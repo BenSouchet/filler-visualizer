@@ -6,7 +6,7 @@
 #    By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/02/02 15:48:09 by bsouchet          #+#    #+#              #
-#    Updated: 2017/03/22 13:59:06 by bsouchet         ###   ########.fr        #
+#    Updated: 2017/03/27 18:57:07 by bsouchet         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ C = clang
 
 NAME = libft.a
 
-FLAGS = -Wall -Wextra -Werror -O2 -g
+FLAGS = -Wall -Wextra -Werror -O2
 
 DIR_S = sources
 
@@ -23,55 +23,23 @@ DIR_O = temporary
 HEADER = include
 
 SOURCES = ft_atoi.c \
-		  ft_atof.c \
-		  ft_shtoi.c \
+		  ft_bzero.c \
 		  ft_rand.c \
-		  ft_ftoa.c \
-		  ft_clamp.c \
 		  ft_free.c \
 		  ft_clr.c \
-		  ft_mempcpy.c \
-		  ft_memset.c \
-		  ft_short_bzero.c \
-		  ft_memchr.c \
-		  ft_nsplit.c \
-		  ft_word.c \
-		  ft_comment.c \
-		  ft_bzero.c \
 		  ft_itoa.c \
-		  ft_putnbr.c \
-		  ft_putnbr_fd.c \
 		  ft_assign.c \
-		  ft_assign_opencl.c \
-		  ft_strcmp.c \
-		  ft_getstr.c \
-		  ft_checkstr.c \
-		  ft_del_dir_name.c \
-		  ft_edit_end.c \
-		  ft_strunc.c \
-		  ft_memcpy.c \
-		  ft_memmove.c \
-		  ft_strchr.c \
-		  ft_strchr_end.c \
-		  ft_strdup.c \
 		  ft_strjoin.c \
 		  ft_strlen.c \
+		  ft_memset.c \
+		  ft_memmove.c \
+		  ft_memcpy.c \
+		  ft_nbrlen.c \
 		  ft_color.c \
-		  ft_nbrlen.c\
-		  ft_strlen_w.c\
-		  ft_putnbrlong.c\
-		  ft_itoa_w.c\
-		  ft_putchar.c\
-		  ft_putchar_fd.c\
-		  ft_putendl.c\
-		  ft_putendl_fd.c\
-		  ft_putstr.c\
-		  ft_putstr_fd.c\
-		  ft_putnl.c\
-		  ft_vec1.c \
-		  ft_vec2.c \
-		  ft_vec3.c \
-		  ft_dzero.c \
+		  ft_strdup.c \
+		  ft_strcmp.c \
+		  ft_strchr.c \
+		  ft_del_dir_name.c \
 		  ft_printf/ft_addto.c\
 		  ft_printf/ft_strf.c \
 		  ft_printf/ft_printf.c\
@@ -94,10 +62,8 @@ SOURCES = ft_atoi.c \
 		  ft_printf/ft_maths.c\
 		  ft_printf/ft_nbrlen.c\
 		  gnl/get_next_line.c \
-		  ft_malloc_err.c \
 		  ft_intlen.c \
-		  ft_hue_color.c \
-		  ft_isdigit.c
+		  ft_hue_color.c
 
 
 SRCS = $(addprefix $(DIR_S)/,$(SOURCES))

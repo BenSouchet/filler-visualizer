@@ -6,7 +6,7 @@
 #    By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/01/07 22:13:23 by bsouchet          #+#    #+#              #
-#    Updated: 2017/03/25 18:23:54 by bsouchet         ###   ########.fr        #
+#    Updated: 2017/03/27 18:53:33 by bsouchet         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ CC			= clang
 
 NAME		= visualizer
 
-FLAGS		= -Wall -Wextra -Werror -fsanitize=address
+FLAGS		= -Wall -Wextra -Werror -O2
 
 SDL2_F		= -framework SDL2 -framework SDL2_ttf -framework SDL2_image -F ./frameworks/
 

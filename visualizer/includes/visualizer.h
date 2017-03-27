@@ -6,7 +6,7 @@
 /*   By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/02 17:26:10 by bsouchet          #+#    #+#             */
-/*   Updated: 2017/03/25 18:32:36 by bsouchet         ###   ########.fr       */
+/*   Updated: 2017/03/27 18:48:59 by bsouchet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,6 @@
 */
 
 # include "parameters.h"
-# include "infos_messages.h"
-# include "errors_messages.h"
 # include "structures.h"
 
 /*

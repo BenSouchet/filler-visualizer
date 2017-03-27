@@ -6,7 +6,7 @@
 /*   By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/13 19:31:41 by bsouchet          #+#    #+#             */
-/*   Updated: 2017/03/25 18:32:03 by bsouchet         ###   ########.fr       */
+/*   Updated: 2017/03/27 18:48:27 by bsouchet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,8 +105,7 @@ int			init_environnement(t_env *env, int x)
 
 void		init_errors(t_env *r, int i)
 {
-	if (!(r->err = (char **)malloc(sizeof(char *) * 3)))
+	if (!(r->err = (char **)malloc(sizeof(char *) * 1)))
 		exit(2);
-	i = (s(&r->err[0], MSG0) && s(&r->err[1], MSG1) && s(&r->err[2], MSG2))
-	? 1 : 1;
+	i = (s(&r->err[0], MSG0))? 1 : 1;
 }
