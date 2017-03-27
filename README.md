@@ -1,7 +1,7 @@
 # Filler Visualizer
 
-Wolf3D is a program developed for my learning course at 42 school.<br/><br/>
-This visualizer is a program developed as an extension of a project for my learning course at 42 school (Paris).<br/><br/>
+Wolf3D is a program developed for my learning course at 42 school.<br/>
+This visualizer is a program developed as an extension of a project for my learning course at 42 school (Paris).<br/>
 The objective is to visualize the battle / conquest of territory of two AI on a specifique area.<br/>
 I realize all this in pure C, with the SDL2 Graphic Library.<br/><br/>
 <img align="center" src="http://i.cubeupload.com/0Zy3iS.gif" width="100%" />
