@@ -1,19 +1,16 @@
 # Filler Visualizer
 
-This visualizer is a program developed as an extension of a project for my learning course at 42 school (Paris).<br/>
-The objective is to visualize the battle / conquest of territory of two AI on a specifique area.<br/>
-I realize all this in pure C, with the SDL2 Graphic Library.<br/><br/>
-<img align="center" src="http://i.cubeupload.com/0Zy3iS.gif" width="100%" style="margin-top: -25px;" />
+This visualizer is a program developed as an extension of a project for my learning course at 42 school (Paris).<br />
+The objective is to visualize the battle / conquest of territory of two AI on a specifique area.<br />
+I realize all this in pure C, with the SDL2 Graphic Library.<br />
+<img align="center" src="http://i.cubeupload.com/0Zy3iS.gif" width="100%" />
+<br />
 Several options are available (see [Keyboard shortcuts](https://github.com/BenjaminSouchet/Filler_Visualizer#keyboard-shortcuts) section for more infos) :
-* Move in any directions (sideways movements included)
-* Rotation with keys (or mouse position)
-* Textured Mode (with floor and ceil casting)
-* Walls collision (with an slight realistic offset)
-* Minimap with rotation according to the player rotation
-* Fire Torch Lighting simulation (in Normal & Hardcore Mode only)
-* Several songs (with Selection of track / Play / Pause and Stop options)
-* Hardcore Mode & Easy Mode
-* Ambient occlusion
+* Play / Pause the progression of the battle
+* Navigation between steps
+* Change colors of the two AI
+* Progression Bar
+* Time elapsed
 
 ## Install & launch
 
@@ -25,19 +22,21 @@ cd ~/Filler_Visualizer
 ```
 ### Start a battle
 
-You have to launch the program with a parameter. This is the name of the map you would like open at the execution of the program. This parameter as to be the name of a valid map, below the list of available maps :<br />
-*maps/good/Basic_00.w3d*<br />
-*maps/good/Basic_01.w3d*<br />
-*maps/good/Maze_Small.w3d*<br />
-*maps/good/Maze_Medium.w3d*<br />
-*maps/good/Maze_Large.w3d*<br />
+Variables :<br />
+
+{MAP} : The map you want to use (located in folder 'maps')<br />
+{PLAYER1} & {PLAYER2} : The players (players are located in folder 'players')<br />
+```
+./filler_vm -f maps/{MAP} -p1 players/{PLAYER1}.filler -p2 players/{PLAYER2}.filler -q -v
+```
 
 Example :
 
-Open one maze map ⇣
+So, if you want to start a battle between hcao & carli on the map01 ⇣
 ```bash
-./wolf3d maps/good/Maze_Large.w3d
+./filler_vm -f maps/map01 -p1 ./players/hcao.filler -p2 players/carli.filler -q -v
 ```
+
 ## Keyboard shortcuts
 
 <table width="100%">
