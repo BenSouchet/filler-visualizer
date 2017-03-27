@@ -67,7 +67,7 @@ So, if you want to start a battle between hcao & carli on the map01 ⇣
 </tr>
 <tr>
 <td valign="top" height="30px">View the next step of the battle</td>
-<td valign="top" align="center"><kbd>&nbsp;►&nbsp;</kbd> or <kbd>&nbsp;E&nbsp;</kbd></td>
+<td valign="top" align="center"><kbd>&nbsp;►&nbsp;</kbd></td>
 </tr>
 </tbody>
 </table>
